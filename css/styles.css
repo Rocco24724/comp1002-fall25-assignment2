@@ -9,5 +9,105 @@ html
 
 .poster-text
 {
-    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem;
+    text-align: center;
+    color: rgb(212, 212, 212);
+    font: sans-serif;
+}
+
+.star-wars
+{
+  font-size: 1.2rem;
+  font-family: 'Star Wars', sans-serif;
+  position: absolute;
+  top: 1135%;
+  left: 41%;
+}
+
+.phantom
+{
+  font-size: 1.6rem; 
+  position: absolute;
+  top: 1230%;
+  left: 40.5%;
+}
+.title 
+{
+  font-size: 4rem;
+  position: absolute;
+  top: 1080%;
+  left: 40.5%;
+}
+
+.tagline 
+{
+  letter-spacing: 6px;
+  position: absolute;
+  top: 120%;
+  left: 43%;
+}
+
+.tagline, .anniversary
+{
+    background-color: black;
+}
+
+.tagling, .title, .phantom, .star-wars
+{
+    color:black;
+    font-weight: bold;
+}
+
+.anniversary
+{
+  font-size: 2rem;
+  letter-spacing: 7px;
+  position: absolute;
+  top: 25%;
+  left: 38.5%;
+  color: yellow;
+}
+
+.date
+{
+  font-size: 1.5rem;
+  position: absolute;
+  top: 1320%;
+  left: 37%;
+}
+
+.starring
+{
+  font-size: .8rem;
+  position: absolute;
+  top: 1380%;
+  left: 34.5%;
+}
+
+.co-starring
+{
+  font-size: .8rem;
+  position: absolute;
+  top: 1440%;
+  left: 36%;
+}
+
+.crew 
+{
+  font-size: .8rem;
+  position: absolute;
+  top: 1470%;
+  left: 40.5%;
+}
+
+.director
+{
+  font-size: .8rem;
+  position: absolute;
+  top: 1500%;
+  left: 45.5%;
 }
